@@ -92,4 +92,54 @@ img {
     
 }
 
+@media only screen and (max-width: 768px){
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    header a {
+        display:none;
+    }
+    .container {
+        flex-direction: column;
+    }
+    button {
+        display: flex;
+        float: right;
+        font-size: 1rem;
+        margin: -30px -29px 0px 0px;
+    }
+    .text.text {
+        order: 1;
+        margin-left: 0;
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+    .text h1 {
+        font-size: 1.6em;
+        margin-left: 20px;
+    }
+    .text p {
+        font-size: 1em;
+        margin-left: 270px;
+        width: 80vw;
+    }
+    .text .learn a {
+        font-size: 1.3em;
+    }
+    .img {
+        display: flex;
+        order: 2;
+        margin-left: 0;
+        margin-top: -100px;   
+    }
+    img {
+        height: 100%;
+        width: 80vw;
+        margin-left: 40px;
+        margin-top: -5px;
+    }
+}
+
 
